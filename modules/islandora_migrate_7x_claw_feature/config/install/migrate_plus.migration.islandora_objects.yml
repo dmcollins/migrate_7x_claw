@@ -412,6 +412,7 @@ process:
         'info:fedora/islandora:pageCModel': 'http://openseadragon.github.io'
         'info:fedora/islandora:sp_pdf': 'http://mozilla.github.io/pdf.js'
         'info:fedora/ir:thesisCModel': 'http://mozilla.github.io/pdf.js'
+      default_value: 'null'
     -
       plugin: entity_lookup
       value_key: field_external_uri
